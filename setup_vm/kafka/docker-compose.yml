@@ -34,5 +34,6 @@ services:
       - "9000:9000"
     environment:
       KAFKA_BROKER_CONNECT: "kafka:29092"
+      JVM_OPTS: "-Xms32M -Xmx64M"
 volumes:
   kafka_Data:
