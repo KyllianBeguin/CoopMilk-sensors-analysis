@@ -36,14 +36,14 @@ services:
       - kafkaData:/var/lib/kafka/data
   
   mongo:
-    image: mongo:5.0.7
+    image: mongo
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
 
   mongo-express:
-    image: mongo-express:0.54.0
+    image: mongo-express
     restart: always
     ports:
       - 8081:8081
