@@ -36,7 +36,7 @@ services:
       - kafkaData:/var/lib/kafka/data
   
   mongo:
-    image: mongo
+    build: Tests\CustomImageMongo\Dockerfile
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
