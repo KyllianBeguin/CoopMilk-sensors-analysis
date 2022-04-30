@@ -36,7 +36,9 @@ services:
       - kafkaData:/var/lib/kafka/data
   
   mongo:
-    build: CustomImageMongo/Dockerfile
+    build:
+      contexte: ./CustomImageMongo
+      dockerfile: Dockerfile
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
