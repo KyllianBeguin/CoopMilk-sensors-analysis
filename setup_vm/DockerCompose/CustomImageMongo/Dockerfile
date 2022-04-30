@@ -1,5 +1,5 @@
 FROM mongo
 
-RUN mongo admin -u root -p example
+CMD ["mongo admin -u root -p example"]
 
-RUN use data49_from_dockerfile
+CMD ["use data49_from_dockerfile"]
