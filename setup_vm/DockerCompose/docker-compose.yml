@@ -36,11 +36,11 @@ services:
       - kafkaData:/var/lib/kafka/data
   
   mongo:
-    build:
-      context: ./CustomImageMongo
-      dockerfile: Dockerfile
+    container_name: mongo_coopmilk
+    image : mongo
     restart: always
     environment:
+      MONGO_INITDB_DATABASE = data49_coopmilk
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
     ports:
