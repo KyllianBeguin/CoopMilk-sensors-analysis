@@ -48,7 +48,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    container_name: mongo-coopmilk_coopmilk
+    container_name: mongo-express_coopmilk
     restart: always
     ports:
       - 8081:8081
