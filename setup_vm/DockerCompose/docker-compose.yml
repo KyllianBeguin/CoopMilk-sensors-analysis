@@ -37,7 +37,7 @@ services:
   
   mongo:
     build:
-      contexte: ./CustomImageMongo
+      context: ./CustomImageMongo
       dockerfile: Dockerfile
     restart: always
     environment:
