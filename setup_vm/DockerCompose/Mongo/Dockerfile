@@ -1,5 +1,5 @@
 FROM mongo
 
-COPY setup_mongo_coopmilk.js /setup/setup_mongo_coopmilk.js
+CMD ["use coopmilk"]
 
-RUN mongo < /setup/setup_mongo_coopmilk.js
+COPY setup_mongo_coopmilk.js /setup/setup_mongo_coopmilk.js
