@@ -39,7 +39,7 @@ services:
     container_name: mongo_coopmilk
     build:
       context: ./Mongo
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
