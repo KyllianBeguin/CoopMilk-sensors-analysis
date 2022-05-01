@@ -37,6 +37,7 @@ services:
   
   mongo:
     container_name: mongo_coopmilk
+    image: mongo
     build:
       context: ./Mongo
       dockerfile: Dockerfile
