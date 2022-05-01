@@ -1,3 +1,5 @@
 FROM mongo
 
-COPY setup_mongo_coopmilk.sh /JE_SUIS_UN_REPERTOIRE/setup_mongo_coopmilk.sh
+COPY setup_mongo_coopmilk.sh /setup/setup_mongo_coopmilk.sh
+
+RUN bash /setup/setup_mongo_coopmilk.sh
