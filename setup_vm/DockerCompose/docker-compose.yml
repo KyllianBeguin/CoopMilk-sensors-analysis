@@ -38,8 +38,8 @@ services:
   mongo:
     container_name: mongo_coopmilk
     build:
-      context: ..
-      dockerfile: Mongo/Dockerfile
+      context: ./Mongo
+      dockerfile: ./Dockerfile
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
