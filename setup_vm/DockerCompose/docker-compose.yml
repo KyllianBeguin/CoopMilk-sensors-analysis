@@ -37,14 +37,16 @@ services:
   
   mongo:
     container_name: mongo_coopmilk
-    image : mongo
+    build:
+      context: ..
+      dockerfile: Mongo/Dockerfile
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-      MONGO_INITDB_DATABASE: data49_coopmilk # Ne marche pas...?
     ports:
        - 27017:27017
+    
 
   mongo-express:
     image: mongo-express
