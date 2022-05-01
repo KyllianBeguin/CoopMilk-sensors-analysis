@@ -1,5 +1,5 @@
 FROM mongo
 
-COPY setup_mongo_coopmilk.sh /setup/setup_mongo_coopmilk.sh
+COPY setup_mongo_coopmilk.js /setup/setup_mongo_coopmilk.js
 
-RUN bash /setup/setup_mongo_coopmilk.sh
+RUN mongo admin -u root -p example /setup/setup_mongo_coopmilk.js
