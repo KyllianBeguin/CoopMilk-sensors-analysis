@@ -1,7 +1,5 @@
 FROM mongo
 
-CMD use coopmilk
-
-CMD db.createCollection("usine1_wallah")
-
 COPY setup_mongo_coopmilk.js /setup/setup_mongo_coopmilk.js
+
+CMD mongo admin -u root -p example < /setup/setup_mongo_coopmilk.js
