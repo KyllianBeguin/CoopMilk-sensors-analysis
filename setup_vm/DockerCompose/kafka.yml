@@ -1,7 +1,6 @@
 ---
 version: "3.2"
-# TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
-
+# AMUSEZ-VOUS BIEN
 services:
   zookeeper:
     image: wurstmeister/zookeeper
