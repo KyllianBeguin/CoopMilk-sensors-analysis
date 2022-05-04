@@ -1,3 +1,4 @@
+use coopmilk
 db.usine1.insertOne({
     "Num_Automate": 1,
     "Temp_Cuve": 3.7,
