@@ -1,5 +1,5 @@
 use coopmilk
-db.usine1.insertOne({
+db.usine1.insertMany({
     "Num_Automate": 1,
     "Temp_Cuve": 3.7,
     "Temp_Ext": 10.6,
@@ -120,7 +120,7 @@ db.usine1.insertOne({
     "Niv_Bact_List": 2
    })
 
-db.usine2.insertOne({
+db.usine2.insertMany({
     "Num_Automate": 1,
     "Temp_Cuve": 3.7,
     "Temp_Ext": 12.4,
@@ -241,7 +241,7 @@ db.usine2.insertOne({
     "Niv_Bact_List": 3
    })
 
-db.usine3.insertOne({
+db.usine3.insertMany({
     "Num_Automate": 1,
     "Temp_Cuve": 3,
     "Temp_Ext": 9.6,
@@ -362,7 +362,7 @@ db.usine3.insertOne({
     "Niv_Bact_List": 1
    })
 
-db.usine4.insertOne({
+db.usine4.insertMany({
     "Num_Automate": 1,
     "Temp_Cuve": 3.6,
     "Temp_Ext": 13.2,
@@ -483,7 +483,7 @@ db.usine4.insertOne({
     "Niv_Bact_List": 1
    })
 
-db.usine5.insertOne({
+db.usine5.insertMany({
     "Num_Automate": 1,
     "Temp_Cuve": 3.2,
     "Temp_Ext": 10.1,
