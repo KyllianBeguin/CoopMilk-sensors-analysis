@@ -1,5 +1,5 @@
 use coopmilk
-db.usine1.insertMany({
+db.usine1.insertMany([{
     "Num_Automate": 1,
     "Temp_Cuve": 3.7,
     "Temp_Ext": 10.6,
@@ -118,9 +118,9 @@ db.usine1.insertMany({
     "Niv_Bact_Salm": 2,
     "Niv_Bact_E-coli": 0,
     "Niv_Bact_List": 2
-   })
+   }])
 
-db.usine2.insertMany({
+db.usine2.insertMany([{
     "Num_Automate": 1,
     "Temp_Cuve": 3.7,
     "Temp_Ext": 12.4,
@@ -239,9 +239,9 @@ db.usine2.insertMany({
     "Niv_Bact_Salm": 0,
     "Niv_Bact_E-coli": 1,
     "Niv_Bact_List": 3
-   })
+   }])
 
-db.usine3.insertMany({
+db.usine3.insertMany([{
     "Num_Automate": 1,
     "Temp_Cuve": 3,
     "Temp_Ext": 9.6,
@@ -360,9 +360,9 @@ db.usine3.insertMany({
     "Niv_Bact_Salm": 0,
     "Niv_Bact_E-coli": 6,
     "Niv_Bact_List": 1
-   })
+   }])
 
-db.usine4.insertMany({
+db.usine4.insertMany([{
     "Num_Automate": 1,
     "Temp_Cuve": 3.6,
     "Temp_Ext": 13.2,
@@ -481,9 +481,9 @@ db.usine4.insertMany({
     "Niv_Bact_Salm": 1,
     "Niv_Bact_E-coli": 0,
     "Niv_Bact_List": 1
-   })
+   }])
 
-db.usine5.insertMany({
+db.usine5.insertMany([{
     "Num_Automate": 1,
     "Temp_Cuve": 3.2,
     "Temp_Ext": 10.1,
@@ -602,4 +602,4 @@ db.usine5.insertMany({
     "Niv_Bact_Salm": 2,
     "Niv_Bact_E-coli": 3,
     "Niv_Bact_List": 4
-   })
+   }])
