@@ -34,7 +34,7 @@ services:
       - kafkaData:/var/lib/kafka/data
   
   mongo:
-    container_name: mongo_coopmilk
+    container_name: mongo
     image: mongo
     build:
       context: ./Mongo
@@ -49,7 +49,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    container_name: mongo-express_coopmilk
+    container_name: mongo-express
     restart: always
     ports:
       - 8081:8081
