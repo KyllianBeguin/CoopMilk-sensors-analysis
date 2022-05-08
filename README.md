@@ -1,7 +1,9 @@
 # SYSTÈME BIG DATA - COPP'MILK  
+![header](https://user-images.githubusercontent.com/50613619/167309970-bf82e8e7-52d6-4d0a-a218-3b6a927969b7.PNG)  
 *By Data49 : Hortense C., Leo L., Rabah A., Marie-Pascale B., Kyllian B.*
 
 Bienvenue sur le projet professionnel de l'équipe Data49 de l'école Sup de Vinci Rennes  
+![Image1](https://user-images.githubusercontent.com/50613619/167310031-d208ef5f-474e-4dc0-bb5b-9eeb345aff5c.png)  
 Ce répository a pour objectif de pouvoir déployer un système Big Data pour le compte de l'entreprise fictive COOP'MILK  
 ## Structure du repository
 ├── Datasets  
@@ -28,4 +30,10 @@ Après avoir démarrer votre machine virtuelle :
 ## Configuration de la base de données mongodb  
 Après avoir déployé les services :
 1. aller dans le conteneur de mongodb : `sudo docker exec -it mongo bash`  
-2. lancer le script de création de la base et d'insertion de données d'essai : `bash `
+2. lancer le script de création de la base et d'insertion de données d'essai : `bash /setup/RUN_ME.sh`  
+# ACCÉDER AUX SERVICES
+| Service | Port |
+| ----------- | ----------- |
+| Mongo-Express | 8081 |
+| Grafana | 3000 |
+| Prometheus | 9090 |
