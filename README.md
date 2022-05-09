@@ -1,6 +1,6 @@
-# SYSTÈME BIG DATA - COPP'MILK  
+# SYSTÈME BIG DATA - COOP'MILK  
 ![header](https://user-images.githubusercontent.com/50613619/167309970-bf82e8e7-52d6-4d0a-a218-3b6a927969b7.PNG)  
-*By Data49 : Hortense C., Leo L., Rabah A., Marie-Pascale B., Kyllian B.*
+*By Data49 : Marie-Pascale B., Hortense C., Rabah A., Marie-Pascale B., Kyllian B.*
 
 Bienvenue sur le projet professionnel de l'équipe Data49 de l'école Sup de Vinci Rennes  
 ![Image1](https://user-images.githubusercontent.com/50613619/167310031-d208ef5f-474e-4dc0-bb5b-9eeb345aff5c.png)  
