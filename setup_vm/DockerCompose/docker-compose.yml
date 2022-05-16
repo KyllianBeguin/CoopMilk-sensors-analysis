@@ -1,6 +1,15 @@
 ---
 version: "3.2"
 services:
+# GENERATE GENERATE GENERATE GENERATE GENERATE GENERATE GENERATE GENERATE
+  usine1:
+    container_name: usine1
+    build:
+      context: ./usines/
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - usine1_vol:/home/usine1_data
 # ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL ETL
   zookeeper:
     image: wurstmeister/zookeeper
@@ -102,3 +111,4 @@ volumes:
   kafkaData:
   zookeperData:
   prom_data:
+  usine1_vol:
