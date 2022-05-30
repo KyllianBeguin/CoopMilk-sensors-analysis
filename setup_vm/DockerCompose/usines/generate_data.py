@@ -30,7 +30,7 @@ while True:
 
         data_automate["num_automate"] = automates_id[i]
         data_automate["type_automate"] = automates_type[i]
-        data_automate["timestamp"] = time.strftime('new Date("%Y-%m-%dT%XZ")') # Mongo format : "2016-05-18>
+        data_automate["timestamp"] = time.strftime('new Date("%Y-%m-%dT%XZ")') # Mongo format : "2016-05-18T16:00:00Z"
 
         for j in range(len(df_rules)):
             if df_rules.iloc[j, 3] == 1:
