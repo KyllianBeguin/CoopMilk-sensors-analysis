@@ -36,7 +36,7 @@ while True:
             if df_rules.iloc[j, 3] == 1:
                 data_automate[df_rules.iloc[j, 0]] = randint(df_rules.iloc[j, 1], df_rules.iloc[j, 2])
             if df_rules.iloc[j, 3] == 0.1:
-                data_automate[df_rules.iloc[j, 0]] = randint(df_rules.iloc[j, 1] * 10, df_rules.iloc[j, 2] >
+                data_automate[df_rules.iloc[j, 0]] = randint(df_rules.iloc[j, 1] * 10, df_rules.iloc[j, 2] * 10) / 10
 
         data[str(automates_id[i])] = data_automate
 
