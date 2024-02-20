@@ -1,5 +1,6 @@
 # 🥛 COOP'MILK - sensors analysis
-`badges (issues, python docker, other techs)`
+![issues](https://badgen.net/github/issues/KyllianBeguin/CoopMilk-sensors-analysis) ![last commit](https://badgen.net/github/last-commit/KyllianBeguin/CoopMilk-sensors-analysis) ![stars](https://badgen.net/github/stars/KyllianBeguin/CoopMilk-sensors-analysis)  
+![Docker version](https://badgen.net/static/Docker/24.0.7?icon=docker) ![Python version](https://badgen.net/static/Python/3.11)
 
 *The purpose of this repo is to show how data can be used in a specific use case. It can be seen as a sandbox project, to play with some techs.*
 
