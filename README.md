@@ -1,39 +1,17 @@
-# SYSTÈME BIG DATA - COOP'MILK  
-![header](https://user-images.githubusercontent.com/50613619/167309970-bf82e8e7-52d6-4d0a-a218-3b6a927969b7.PNG)  
-*By Data49 : Marie-Pascale B., Hortense C., Rabah A., Leo L., Kyllian B.*
+# 🥛 COOP'MILK - sensors analysis
+![issues](https://badgen.net/github/issues/KyllianBeguin/CoopMilk-sensors-analysis) ![last commit](https://badgen.net/github/last-commit/KyllianBeguin/CoopMilk-sensors-analysis) ![stars](https://badgen.net/github/stars/KyllianBeguin/CoopMilk-sensors-analysis)  
+![Docker version](https://badgen.net/static/Docker/24.0.7?icon=docker) ![Python version](https://badgen.net/static/Python/3.11)
 
-Bienvenue sur le projet professionnel de l'équipe Data49 de l'école Sup de Vinci Rennes  
-![Image1](https://user-images.githubusercontent.com/50613619/167310031-d208ef5f-474e-4dc0-bb5b-9eeb345aff5c.png)  
-Ce répository a pour objectif de pouvoir déployer un système Big Data pour le compte de l'entreprise fictive COOP'MILK  
-## Structure du repository
-├── Datasets  
-├── setup_vm  
-│   ├── DockerCompose  
-│   │   ├── docker_compose.yml  
-│   │   ├── Mongo  
-│   │   ├── grafana  
-│   │   ├── prometheus  
-│   ├── install_docker.sh  
-│   ├── install_docker_compose.sh  
-# PROCÉDURE DE DÉPLOIEMENT DU SYSTÈME  
-## Déploiement des services
-Après avoir démarrer votre machine virtuelle :  
-1. update la vm : `sudo apt-get update`
-2. installer git : `sudo apt-get install git`
-3. [optionnel] Aller dans le dossier /home de votre machine virtuelle : `cd ..`  
-4. cloner ce repository : `sudo git clone https://github.com/KyllianBeguin/b3_big-data_projet-pro.git`  
-5. lancer le script d'installation de docker (pour Debian) : `bash b3_big-data_projet-pro/setup_vm/install_docker.sh`  
-6. lancer le script d'installation de docker-compose (pour Debian) : `bash  b3_big-data_projet-pro/setup_vm/install_docker_compose.sh`  
-7. aller dans le dossier du docker-compose.yml : `cd b3_big-data_projet-pro/setup_vm/DockerCompose`  
-8. lancer le docker-compose.yml : `sudo docker-compose up -d`  
-9. vérifier que les services sont tous présents : `sudo docker ps`  
-## Configuration de la base de données mongodb  
-Après avoir déployé les services :
-1. aller dans le conteneur de mongodb : `sudo docker exec -it mongo bash`  
-2. lancer le script de création de la base et d'insertion de données d'essai : `bash /setup/RUN_ME.sh`  
-# ACCÉDER AUX SERVICES
-| Service | Port |
-| ----------- | ----------- |
-| Mongo-Express | 8081 |
-| Grafana | 3000 |
-| Prometheus | 9090 |
+*The purpose of this repo is to show how data can be used in a specific use case. It can be seen as a sandbox project, to play with some techs.*
+
+## Data for analyzing milk quality !
+This project is about using data about various parameters to assess the quality of a milk company called COOP'MILK ! At first, it was supposed to be a small project for our class, back in 2021, and now we use to show people how it's cool to work with data 😎!  
+
+**Disclaimer**: it wont reflect the reality of a company that uses data to do such things. But, the infrastructure used in this project is the best compromise between the laziness of deploying something, and showing real world!  
+
+## Wanna play with this project ?!
+So you're hypped and want to deploy this little baby to have some fancy night watching at your real time graphics ?  
+Before having fun, here are some requirements you should follow :
+- [ ] Get [Python](https://www.python.org/downloads/), either 3.10 or more
+- [ ] Get [Docker](https://docs.docker.com/engine/install/)
+- [ ] Grab a cup of coffee, a nice sweet blanket, your favorite hoodie !
