@@ -15,3 +15,6 @@ Before having fun, here are some requirements you should follow :
 - [ ] Get [Python](https://www.python.org/downloads/), either 3.10 or more
 - [ ] Get [Docker](https://docs.docker.com/engine/install/)
 - [ ] Grab a cup of coffee, a nice sweet blanket, your favorite hoodie !
+
+## Additional informations
+🧱 Architecture used : [Architecture](Architecture.md)
