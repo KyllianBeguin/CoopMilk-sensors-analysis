@@ -4,7 +4,7 @@
 *Note: The choices are led by the first-simplicity-next-complexity philosophy. We use basic stuff at first, and then build something more complex, one thing at a time.*
 
 ## Major components
-![Functionnal](/media/Architectures/Functionnal.png)
+![Functional](/media/Architectures/Functional.png)
 
 This project is composed of the following components:
 * Factories that contains sensors
